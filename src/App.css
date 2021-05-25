@@ -1,46 +1,55 @@
 :root {
-    --main-color: #060685;
-    --main-color-dark: #040463;
-    cursor: default;
+  --main-color: rgb(149, 21, 30);
+  --main-color-dark: rgb(149, 21, 30);
+  cursor: default;
 }
 
-h3, h4, h5, h6 {
-    padding: 0;
-    margin: 0;
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .tt-Title {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 3em 1em 1em;
-    border-bottom: 3px solid var(--main-color);
-    padding: .5em;
-    font-weight: bold;
-    color: var(--main-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3em 1em 1em;
+  border-bottom: 3px solid var(--main-color);
+  padding: 0.5em;
+  font-weight: bold;
+  color: var(--main-color);
 }
 
 .time-table-container {
-    transition: filter .3s;
-    filter: blur(0px);
-    max-width: 800px;
-    overflow: hidden;
-    margin: 0 auto;
+  transition: filter 0.3s;
+  filter: blur(0px);
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-image: url("https://www.q-dance.com/static/images/defqonskin/defqon-bg-black.jpg");
 }
 
 .time-table-container.artist-card-active {
-    filter: blur(5px);
+  filter: blur(5px);
 }
