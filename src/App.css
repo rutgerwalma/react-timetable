@@ -1,7 +1,7 @@
 :root {
   --main-color: rgb(149, 21, 30);
   --main-color-dark: rgb(149, 21, 30);
-  cursor: default;
+  cursor: initial;
 }
 
 h3,
